@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.hero{
+display:flex;
+justify-content:flex-start;
+align-items:center;
+}
+img{
+	width: 70%;
+	height:100vh;
+	object-fit:cover;
+	
+}
+button{
+	padding:10px;
+	background-color:red;
+	border-radius:20%;
+	color:white;
+}
+.villian{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
